@@ -1,0 +1,5 @@
+def Newton(f,f1,x0,tol):
+x=x0
+while(abs(f(x))>tol)
+x=x-f(x)/df(x)
+return(x)
